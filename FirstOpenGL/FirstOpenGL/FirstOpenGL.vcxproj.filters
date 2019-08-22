@@ -29,11 +29,5 @@
     <ClInclude Include="..\..\..\..\..\Downloads\examples-master\include\vgl.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\examples-master\include\GL3\gl3.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\examples-master\include\GL3\gl3w.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
