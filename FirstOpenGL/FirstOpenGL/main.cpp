@@ -11,7 +11,7 @@ using namespace std;
 GLuint  VAOs[NumVAOs];
 GLuint  Buffers[NumBuffers];
 
-const GLuint  NumVertices = 6;
+const GLuint  NumVertices = 9;
 
 //----------------------------------------------------------------------------
 //
@@ -21,10 +21,11 @@ const GLuint  NumVertices = 6;
 void
 init(void)
 {
-	static const GLfloat vertices[NumVertices][2] =
+	static const GLfloat vertices[NumVertices][3] =
 	{
 		{ -0.90f, -0.90f }, {  0.85f, -0.90f }, { -0.90f,  0.85f },  // Triangle 1
-		{  0.90f, -0.85f }, {  0.90f,  0.90f }, { -0.85f,  0.90f }   // Triangle 2
+		{  0.90f, -0.85f }, {  0.90f,  0.90f }, { -0.85f,  0.90f },   // Triangle 2
+		{  0.50f, -0.55f }, {  0.50f,  0.50f }, { -0.55f,  0.50f }   // Triangle 3
 	};
 
 	glCreateBuffers(NumBuffers, Buffers);
