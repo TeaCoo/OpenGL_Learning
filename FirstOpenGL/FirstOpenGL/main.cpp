@@ -31,6 +31,8 @@ init(void)
 	glCreateBuffers(NumBuffers, Buffers);
 	glNamedBufferStorage(Buffers[ArrayBuffer], sizeof(vertices), vertices, 0);
 
+	int a = 0;
+
 	ShaderInfo  shaders[] =
 	{
 		{ GL_VERTEX_SHADER, "triangles.vert" },
