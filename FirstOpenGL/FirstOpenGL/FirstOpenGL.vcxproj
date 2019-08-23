@@ -131,10 +131,15 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\gl3w.c" />
     <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\LoadShaders.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="triangles.frag" />
     <None Include="triangles.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\LoadShaders.h" />
+    <ClInclude Include="include\vgl.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
