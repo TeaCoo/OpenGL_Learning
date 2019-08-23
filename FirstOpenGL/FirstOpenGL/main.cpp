@@ -24,11 +24,13 @@ init(void)
 	static const GLfloat vertices[NumVertices][2] =
 	{
 		{ -0.90f, -0.90f }, {  0.85f, -0.90f }, { -0.90f,  0.85f },  // Triangle 1
-		{  0.50f, -0.55f }, {  0.50f,  0.50f }, { -0.55f,  0.50f }   // Triangle 2
+		{  0.90f, -0.85f }, {  0.90f,  0.90f }, { -0.85f,  0.90f }   // Triangle 2
 	};
 
 	glCreateBuffers(NumBuffers, Buffers);
 	glNamedBufferStorage(Buffers[ArrayBuffer], sizeof(vertices), vertices, 0);
+
+	int a = 0;
 
 	ShaderInfo  shaders[] =
 	{
