@@ -18,16 +18,16 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\glad\src\glad.c">
+    <ClCompile Include="glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Downloads\examples-master\include\LoadShaders.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\examples-master\include\vgl.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <None Include="triangles.vert">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="triangles.frag">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>
